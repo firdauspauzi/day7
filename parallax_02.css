@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lemonchiffon;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 20px;
+    text-shadow: 3px 3px 1.5px rgba(1,1,1, 0.2);
+    color:black
+}
+
+#container{
+    /* background-color: violet; */
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: skyblue;
+    box-shadow: 20px 20px 5px rgba(168, 102, 16, 0.2);
+}
+
+#layerOne{
+    background-image: url(day7_challenge/img/person.png);
+    background-size: contain; /*this makes whole bg visible*/
+    background-repeat: no-repeat;
+    width: 1200px; 
+    height: 600px; 
+    position: absolute;
+    left: 61px;
+    top: 267px;
+    z-index: 100;
+}
+
+ #layerTwo{
+    background-image: url(day7_challenge/img/mountain1.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 2800px; 
+    height: 800px;
+    position: absolute;
+    left: -200px;
+    top: -24px;
+    z-index: 90;
+} 
+
+#layerThree{
+    background-image: url(day7_challenge/img/mountain2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 2400px; 
+    height: 800px;
+    position: absolute;
+    left: -500px;
+    top:  110px;
+    z-index: 80;
+}
+
+#layerFour{
+    background-image: url(day7_challenge/img/mountain3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1200px; 
+    height: 600px;
+    position: absolute;
+    left: 77px;
+    top: 103px;
+    z-index: 70;
+} 
+
+ #layerFive{
+    background-image: url(day7_challenge/img/image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1200px; 
+    height: 1000px;
+    position: absolute;
+    left: -48px;
+    top: -66px;
+    z-index: 60;
+} 
